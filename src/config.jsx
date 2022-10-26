@@ -1,6 +1,8 @@
 import { createChatBotMessage } from 'react-chatbot-kit';
+import { useState } from 'react'
+import axios from "axios";
 
-const botName = 'Adam';
+const botName = "ADAM";
 
 const config = { 
   botName: botName,
